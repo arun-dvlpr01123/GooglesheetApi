@@ -12,8 +12,8 @@ sheety_url = os.environ.get("SHEETY_URL")
 json_param = {
     "query": input("What exercise did you do today? "),
     "gender": "male",
-    "weight_kg": 77.5,
-    "height_cm": 177.64,
+    "weight_kg": 77.7,
+    "height_cm": 177.67,
     "age": 33
 }
 
@@ -42,5 +42,5 @@ for exc in stat_json:
 
     response = requests.post(url=sheety_url,json=sheety_add_param)
     print(response.text)
-print("Project completed successfully")
+print("Project completed successfully done")
 
