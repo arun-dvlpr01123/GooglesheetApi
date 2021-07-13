@@ -6,7 +6,7 @@ array_len = len(my_array)
 
 for i in range(0,array_len):
     for j in range(i+1,array_len):
-        if my_array[i] >= my_array[j]:
+        if my_array[i] <= my_array[j]:
             temp = my_array[i]
             my_array[i] = my_array[j]
             my_array[j] = temp
