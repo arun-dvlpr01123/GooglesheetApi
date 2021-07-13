@@ -42,5 +42,5 @@ for exc in stat_json:
 
     response = requests.post(url=sheety_url,json=sheety_add_param)
     print(response.text)
-
+print("Project completed successfully")
 
